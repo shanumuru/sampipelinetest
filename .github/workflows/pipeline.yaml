@@ -10,10 +10,10 @@ on:
       - 'feature**'
 
 env:
-  PIPELINE_USER_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  PIPELINE_USER_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  PIPELINE_USER_ACCESS_KEY_ID: ${{ secrets.AKIASEL4CHTRA4TFHNHY }}
+  PIPELINE_USER_SECRET_ACCESS_KEY: ${{ secrets.OHSwUrG8Rra0X5tDV+2v+V2Yam/7EM0l+BJRD3+f }}
   SAM_TEMPLATE: template.yaml
-  TESTING_STACK_NAME: sam-pipeline-app
+  TESTING_STACK_NAME: sam-pipe-qa
   TESTING_PIPELINE_EXECUTION_ROLE: arn:aws-us-gov:iam::146825952482:role/aws-sam-cli-managed-qa-pipeli-PipelineExecutionRole-cRpL41gmdAfn
   TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws-us-gov:iam::146825952482:role/aws-sam-cli-managed-qa-pi-CloudFormationExecutionRo-4GRjX9VP8PkU
   TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-qa-pipeline-re-artifactsbucket-onfewrdxtnzf
